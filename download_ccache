@@ -6,7 +6,7 @@ nproc
 cat /etc/os*
 env
 
-url=https://ancient-bush-fa07.010-hugo-ad.workers.dev/ccache/ccache.tar.gz #here my ccache is located
+url=https://rom.arjunpankhaniya.workers.dev/ccache/ccache.tar.gz #here my ccache is located
 
 cd /tmp # Where to download cccahe
 time aria2c $url -x16 -s50 # Using aria2c for speed haha, ccache will be at /tmp/ccache.tar.gz since my file name is ccache.tar.gz
